@@ -1,0 +1,232 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Styles for editor and display helpers
+----------------------------------------------------------*/
+.display-label label, 
+.editor-label label {
+    display: block;
+    float: left;
+    width: 125px;
+}
+
+.display-field, 
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+.redfont {
+    color: #e80000;
+}
+/* Set padding to keep the text left or right */
+.col-padding {
+    padding-right: 0px; 
+    padding-left: 0px;
+    /*width:18px;*/
+}
+.padding-left {
+    padding-left: 0px;
+}
+.col-sm-2-padding
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    width:230px;    
+   
+}
+.col-sm-3-padding
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 0px;    
+
+}
+
+
+
+.field-validation-error{ color: red; font-weight: bold; }
+
+.input-validation-error{  border: 1px solid red; }   /*// background: pink;*/
+
+
+.detailtable {
+  text-align: left; padding-right: 0px; padding-left: 0px;
+}
+
+/*Extra css form header*/ 
+
+
+/*#dosbanner {
+    border-bottom: 0 solid #2168a9;
+}
+#dosbanner .navbar-collapse {
+    padding-left: 0;
+}*/
+#dosbanner ul a:before, .utility-links li:before {
+    content: "|";
+    display: block;
+    position: absolute;
+    left: 0;
+    text-decoration: none;
+    width: auto;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/*.container {
+    max-width: 1170px !important;
+}*/
+
+#dosbanner {
+    border-bottom: 0 solid #2168a9;
+}
+#dosbanner {
+    background-color: #000;
+    /*border-bottom: 5px solid #e9ac3b;*/
+    border-radius: 0;
+    margin-bottom: 0;
+    z-index: inherit;
+}
+body {
+    padding-top: 0;
+    background: #fff url(/images/pattern-background.gif) repeat;
+    font-size: 14px;
+    font-family: 
+        "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    /*Calibri,Candara,Segoe,"Segoe UI",Optima,Tahoma,sans-serif;*/
+    color: #313131;
+}
+.navbar .icon-menu:before {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+#dosbanner .navbar-collapse {
+    padding-left: 0;
+}
+
+.navbar-collapse.collapse {
+    display: table-row !important;
+}
+
+a, a:hover, a:focus {
+    color: #4088c7;
+}
+
+img {
+    width: auto;
+    
+}
+imgElectionLogo {
+    width: auto;
+    margin-top:-1.5em;
+}
+
+#dosLogo {
+    background-color: #fff;
+}
+
+
+
+
+#dosbanner .navbar-nav>li>a {
+    line-height: 25pt;
+    padding: 8px 5px 8px 12px;
+}
+#dosbanner ul a, #secondary ul a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+#dosbanner .navbar-nav {
+    margin-top: 2px;
+}
+
+a, a:hover, a:focus {
+    color: #4088c7;
+}
+
+#dosbanner ul li:first-child a:before, .utility-links li:first-child:before {
+    content: normal;
+}
+
+.collapse {
+  display: none;
+
+  
+   font-family: 
+       
+    Calibri,Candara,Segoe,"Segoe UI",Optima,Tahoma,sans-serif;
+}
+
+
+#footer {
+    border-top-color: #2168a9;
+}
+#footer {
+    background-color: #000;
+    color: #fff;
+    border-top: 5px solid #2168a9;
+    padding: 1em;
+    font-size: 14px;
+}
+    #header {
+    background-color: #2168a9;
+    background-position: 50% bottom;
+}
+
+#header {
+    position: relative;
+}
+
+/*.banner-division .mission {
+    font-size: 16px;
+    line-height: 22px;
+}
+.search-banner .mission {
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #313131;
+    font-family: "Oxygen","Segoe UI","Trebuchet MS",Arial,Helvetica,sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}*/
+
+
+.col-sm-6 {
+    width: 58%;
+}
+    .HeaderImage
+    {
+        width:102.5%;
+        height:auto;
+        margin-left:-1em;
+        text-align: center;
+    }

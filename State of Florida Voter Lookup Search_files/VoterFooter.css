@@ -1,0 +1,146 @@
+﻿ #footer {
+            border-top-color: #2168a9;
+        }
+
+        #footer {
+            background-color: #000;
+            color: #fff;
+            border-top: 5px solid #2168a9;
+            
+            padding: 2em;
+            font-size: 14px;
+        }
+        /**, *:before, *:after
+        {
+            box-sizing: border-box;
+        }*/
+        div {
+            display: block;
+        }
+
+        .container {
+            /*max-width: 1150px;*/
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        #footer .logo {
+            float: left;
+        }
+
+        p {
+            margin: 0 0 10px;
+            /*display: block;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;*/
+        }
+
+        #footer .logo img {
+            width: 120px;
+            margin-right: 1em;
+            margin-top: -1.5em;
+        }
+
+        #footer .officials {
+            /*margin-top: 30px;*/
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .utility-links {
+            font-size: 14px;
+            margin-left: -5px;
+            font-weight: normal;
+        }
+
+            .utility-links li {
+                position: relative;
+                margin: 0;
+                text-indent: initial;
+            }
+
+        #footer .questions {
+            margin-bottom: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #footer .disclaimer {
+            margin-bottom: 2em;
+            font-weight: normal;
+            font-size: 13px;
+        }
+
+        #footer .contact-block .address, #footer .copyright {
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        #footer .contact-block {
+            padding-left: 20px;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        #footer a {
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        .utility-links li:first-child a {
+            padding-left: 0;
+        }
+
+        .utility-links a {
+            padding-right: 3px;
+        }
+        #dosbanner ul li:first-child a:before, .utility-links li:first-child:before {
+    content: normal;
+}
+        #dosbanner ul a:before, .utility-links li:before {
+        
+        content: "|";
+        display: block;
+        position: absolute;
+        left: -5px;
+        text-decoration: none;
+        width: auto;
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+        .lead {
+            font-size: 19px;
+        }
+
+        #footer .department {
+            font-size: 20px;
+            font-weight: bold;
+            font-size:25px;          /*18px;*/
+        }
+
+            #skip a
+{ 
+position:absolute; 
+left:-10000px; 
+top:auto; 
+width:1px; 
+height:1px; 
+overflow:hidden;
+} 
+ 
+#skip a:focus 
+{ 
+position:static; 
+width:auto; 
+height:auto; 
+} 

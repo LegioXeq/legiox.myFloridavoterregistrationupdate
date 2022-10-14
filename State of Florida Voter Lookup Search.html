@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Florida Voter Lookup | Search</title>
+    <meta name="description" content="Florida voter registration lookup, voter registration, voter statistics.">
+    <meta name="keywords" content="voter registration, voter statistics">
+    <link rel="shortcut icon" media="all" type="image/x-icon" href="https://registration.elections.myflorida.com/content/Images/favicon.ico">
+
+    <link href="State%20of%20Florida%20Voter%20Lookup%20Search_files/SkipLinks.css" rel="stylesheet">
+    <link href="State%20of%20Florida%20Voter%20Lookup%20Search_files/css.css" rel="stylesheet">
+
+    <script type="text/javascript" async="" src="State%20of%20Florida%20Voter%20Lookup%20Search_files/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-vs3dl3wt0sr1NSmWE/o2E71r7EDd6e3fFXEmu4tyET7uqtZw1URcwd3+DYJQtrMg"></script><script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/modernizr.es"></script>
+
+    <script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/jquery.es"></script>
+
+    <script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/jqueryui.es"></script>
+
+    <script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/jqueryval.es"></script>
+
+    <link href="State%20of%20Florida%20Voter%20Lookup%20Search_files/uicss.css" rel="stylesheet">
+
+
+</head>
+
+
+<body style="background-color: #828499; padding-top: 0px;">
+
+     
+    <nav class="navbar navbar-inverse" id="dosbanner" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dosMenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-menu"></span>
+                </button>
+                
+                <a class="navbar-brand display-print" href="https://dos.myflorida.com/" target="_blank"><img src="State%20of%20Florida%20Voter%20Lookup%20Search_files/dos.logo.black-bg.png" class="img-responsive" alt="Florida Department of State" id="dosLogo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse  hidden-print" id="dosMenu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://dos.myflorida.com/sunbiz/" target="_blank" title="Division of Corporations website">Corporations</a></li>
+                    <li><a href="https://dos.myflorida.com/cultural/" target="_blank" title="Division of Cultural Affairs website">Cultural Affairs</a></li>
+                    <li><a href="https://dos.myflorida.com/elections/" target="_blank" title="Division of Elections website">Elections</a></li>
+                    <li><a href="https://dos.myflorida.com/historical/" target="_blank" title="Division of Historical Resources website">Historical Resources</a></li>
+                    <li><a href="https://dos.myflorida.com/library-archives/" target="_blank" title="Division of Library and Information Services website">Library and Information Services</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/api.js"></script>
+<div>
+    
+<link href="State%20of%20Florida%20Voter%20Lookup%20Search_files/Site.css" rel="stylesheet">
+<div id="header">
+
+    
+    <div class="container text-center">  
+        
+        <div class="HeaderImage">            
+            <img class="img-responsive" src="State%20of%20Florida%20Voter%20Lookup%20Search_files/VoterLookupWebBanner.jpg">
+          
+    </div>
+        
+    </div>
+    
+    
+
+</div>
+
+
+ 
+
+    
+   <div class="container" style="background-color: whitesmoke;">
+        <main id="content">
+            
+
+<script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/jquery.validate.js"></script>
+<script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/jquery.validate.unobtrusive.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<style>
+    .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.panel-column {
+    padding: 0 8px;
+}
+.panel-333333 .panel-right h4, .panel-6733 .panel-right h4, .infobox .title {
+    background-color: #b40d0d;
+}
+.panel h4 {
+    background-color:#337ab7;    /*#2168a9;*/
+    
+}
+.panels h4 {
+    text-transform: uppercase;
+    /*background-color: #666;*/
+    font-size: 1em;
+    padding: 4px 8px;
+    color: #fff;
+    margin: 0 -8px 1em -8px;
+}
+
+</style>
+
+
+
+
+
+            <div class="alert alert-info" style="display: none;margin-bottom: 10px;">
+                PRODUCTION Region
+            </div>
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-md-4; col-sm-4; col-lg-4; col-xs-4">
+            <span style="text-align: left; font-size: 16px;"><a href="https://registration.elections.myflorida.com/es/CheckVoterStatus/Index" class="a_hover" data-lang="es" lang="es"> Versión en Español</a></span>
+
+        
+
+        
+
+    </div>
+    <div class="col-md-8; col-sm-8; col-lg-8; col-xs-8">
+        <span class="redfont"><strong style="font-size:16px;">This site requires JavaScript to be enabled.</strong></span> <br>
+    </div>
+
+</div><br>
+
+
+
+
+
+
+<div class="panels list-unstyled" style="margin-top:-15px;">
+    <div class="panel" style="background-color:whitesmoke;margin-bottom:0px;">
+        <div class="row panel-333333">
+            <div class="col-md-8 clearfix">
+                <div class="panel-column panel-left">
+                    
+                    <h4><b>Check Your Registration and Voting Status</b></h4>
+                    
+                    <p>
+                        <strong>
+                            
+                            <br>
+
+
+                            
+                            <span>Check here for your voter registration
+ status. To find your polling place, sample ballot, and vote-by-mail 
+ballot status, check your <a target="_blank" href="https://dos.myflorida.com/elections/for-voters/check-your-voter-status-and-polling-place/voter-precinct-lookup/">Supervisor of Elections'</a> website.</span>
+                        </strong>
+                    </p>
+                    <p>
+                        <strong>
+                            
+                            <br>
+                            Please allow 1-2 business days for newly 
+entered voter registration information to appear on this website.
+                        </strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix">
+                <div class="panel-column panel-right">
+                    <h4><b>
+                        ONLINE VOTER REGISTRATION
+                        
+                        </b>
+                    </h4>
+                    <p>
+                        <strong>  
+
+                            <span>Visit <a target="_blank" href="https://registertovoteflorida.gov/"><u>RegistertoVoteFlorida.gov</u></a> to submit a new registration or to update your existing record.</span>
+
+                            
+                          
+                        </strong>
+                    </p>
+                   <p style="text-align:center">
+                    <a href="https://registertovoteflorida.gov/"><img src="State%20of%20Florida%20Voter%20Lookup%20Search_files/ovr-button.jpg" alt="RegistertoVoteFlorida.gov" data-id="53850"></a>
+                   </p>
+                    
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<form action="http://192.168.19.128/CheckVoterStatus" method="post" novalidate="novalidate">    <div>
+
+        <div class="panel panel-primary" style="margin-bottom:3px;">
+            
+            <div class="panel-body">
+
+                <div class="text-center">
+                   Your name and date of birth must be entered as it 
+appears in your registration record to find your information. 
+                  (<span class="redfont">*</span>) Indicates required field.
+                </div> <br>
+
+                <div class="row ">
+                    <div class="row col-md-12">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-2 text-left" style="padding-right: 0px; padding-left: 0px;">
+                            <label id="lblFirstName" for="FirstName"><span class="redfont">* </span>First Name :</label>
+                        </div>
+                        <div class="col-md-3 text-left" style="padding-left: 0px;">
+                            <input class="form-control" data-val="true" data-val-regex="First Name cannot have special characters other than - and '" data-val-regex-pattern="[a-zA-Z0-9- ']*$" data-val-required=" * Required" id="FirstName" maxlength="30" name="FirstName" placeholder="Enter your First Name" type="text">
+                        </div>
+                        <div class="col-md-4 ">
+                            <span class="field-validation-valid redfont" data-valmsg-for="FirstName" data-valmsg-replace="true" id="errorFirstName"></span>
+                        </div>
+                    </div>
+
+                    <div class="row col-md-12">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-2 text-left " style="padding-right: 0px; padding-left: 0px;">
+                            <label id="lblLastName" for="LastName"><span class="redfont">*</span> Last Name : </label>
+                        </div>
+                        <div class="col-md-3 text-left" style="padding-left: 0px;">
+                            <input class="form-control" data-val="true" data-val-regex="Last Name cannot have special characters other than - and '" data-val-regex-pattern="[a-zA-Z0-9- ']*$" data-val-required=" * Required" id="txtLastName" maxlength="30" name="LastName" placeholder="Enter your Last Name" type="text">
+                        </div>
+                        <div class="col-md-4 ">
+                            <span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-2 text-left" style="padding-right: 0px; padding-left: 0px;">
+                            <label id="lblBirthDay" for="BirthDay"><span class="redfont">* </span>Birth Date (MM/DD/YYYY): </label>
+                        </div>
+                        <div class="col-md-3 text-left" style="padding-left: 0px;">
+                            <input class="form-control datecontrol hasDatepicker" data-val="true" data-val-date="* Invalid Date" data-val-required=" * Required" id="datepicker" name="BirthDay" placeholder="Enter your Birth Date" type="text">
+                        </div>
+                        <div class="col-md-4 ">
+                            <span class="field-validation-valid" data-valmsg-for="BirthDay" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+
+        
+                <br>
+                <div>
+                    <p>
+                        
+
+                        <span>This website is intended for use by a 
+registered voter to determine his or her voter registration and voting 
+status. It is unlawful to knowingly alter another person’s voter 
+registration information or to attempt, assist with, or otherwise commit
+ fraud in connection with the right to vote. See §§ 104.011, 104.041, 
+and 104.41, Fla. Stat.  For more information, visit our <a target="_blank" href="http://dos.myflorida.com/elections/for-voters/voter-registration/"><u>Voter Registration information</u></a> webpage.</span>
+
+                     
+                       
+                    </p>
+
+                    <p class="panel-title" style="background-color: #dce7ff">
+                        <span class="redfont">* </span> <input data-val="true" data-val-required="The Acknowledged field is required." id="Acknowledged" name="Acknowledged" type="checkbox" value="true"><input name="Acknowledged" type="hidden" value="false"> I understand and agree.
+                    </p>
+                    <span class="field-validation-valid text-danger" data-valmsg-for="Acknowledged" data-valmsg-replace="true"></span>
+                </div>
+
+                <br>
+                 
+
+                <div>
+                    
+                    
+    <br>
+                    <p class="text-center">
+                        <input type="submit" value="Submit" class="btn btn-primary" name="submitaction">
+                        <input type="submit" value="Cancel" name="submitaction" class="btn btn-primary" onclick="javascript:window.location.href = window.location.href;return false;">
+                    </p>
+                    <p class="text-center">
+                        <b> Close your browser when done with your search. </b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var x = document.getElementById('ShowIEMsg');
+
+        if (navigator.appName == 'Microsoft Internet Explorer' ||
+            !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) ||
+            (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+
+    $(function () {
+        $("#norecordsDialog").dialog();
+    });
+
+    $(function () {
+        $("#datepicker").datepicker({
+            onClose: function () { $(this).valid(); },
+            dateFormat: "mm/dd/yy"
+        });
+    });
+
+
+    $(function () {
+        $("#datepicker").datepicker({ changeMonth: true, changeYear: true }).
+              mask('99/99/9999');
+    });
+
+
+    $.validator.addMethod(
+    'date',
+    function (value, element, params) {
+        if (this.optional(element)) {
+            return true;
+        };
+        var result = false;
+        try {
+            $.datepicker.parseDate('mm/dd/yy', value);
+            result = true;
+        } catch (err) {
+            result = false;
+        }
+        return result;
+    },
+    ''
+);
+
+
+
+    ////$(document).ready(function () {
+    //jQuery.validator.methods.date = function (value, element) {
+    //    //debugger;
+    //    var d = new Date();
+    //    return this.optional(element) || !/Invalid|NaN/.test(new Date(d.toLocaleDateString(value)));
+    //    //var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    //    //if (isChrome) {
+
+    //    //} else {
+    //    //    return this.optional(element) || !/Invalid|NaN/.test(new Date(value));
+    //    //}
+    //};
+
+    ////});
+
+
+    //$(document).ready(function () {
+    //$('input[type="checkbox"]').click(function () {
+    //if ($(this).is(":checked")) {
+    //alert("Checkbox is checked.");
+    //}
+    //else if ($(this).is(":not(:checked)")) {
+    //alert("Checkbox is unchecked.");
+    //}
+    //});
+    //});
+
+</script>
+
+
+
+            </main>
+            
+            <p class="text-center" style="Font-Size: small;">
+
+                <span>Please email <a target="_blank" href="mailto:BVRSHelp@dos.myflorida.com">BVRSHelp@dos.myflorida.com</a> for website assistance.</span>
+            </p>
+</div>
+    
+<link href="State%20of%20Florida%20Voter%20Lookup%20Search_files/VoterFooter.css" rel="stylesheet">
+<div id="footer">
+
+    <div class="container">
+        <div class="row">
+
+             
+
+            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 footerColLeft">
+
+                <div id="skip"><a href="http://192.168.19.128/index.html#content" style="font-size:x-large">Skip to Main Content</a></div>
+                <div>
+                    <p class="logo state-seal"><img src="State%20of%20Florida%20Voter%20Lookup%20Search_files/Seal.png" alt="Florida State Seal" class="img-responsive" id="state-sealImg"></p>
+
+                    <p class="officials">
+                        Ron DeSantis, Governor<br>
+                        Cord Byrd, Secretary of State
+                    </p>
+
+                    
+                </div>
+                <ul class="list-inline utility-links" style="clear:left;">
+                    <li><a href="http://dos.myflorida.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+                    <li><a href="http://dos.myflorida.com/accessibility/" target="_blank">Accessibility</a></li>
+                    <li><a href="http://dos.myflorida.com/site-map/" target="_blank">Site Map</a></li>
+                    <li><a href="http://dos.myflorida.com/communications/" target="_blank" title="Department of State Communications">Communications</a></li>
+                    <li><a href="http://dos.myflorida.com/communications/connect/" target="_blank" title="Connect with the Department of State">Connect</a></li>
+
+                </ul>
+                
+                
+               
+                <p class="lead questions">Questions or comments? <a href="mailto:BVRSHelp@dos.myflorida.com" target="_blank">Contact Us</a></p>
+                
+                <p class="disclaimer">Under Florida law, e-mail 
+addresses are public records. If you do not want your e-mail address 
+released in response to a public records request, do not send electronic
+ mail to this entity. Instead, contact this office by phone or in 
+writing.</p>
+                <p class="copyright"><small><a href="http://dos.myflorida.com/copyright/" target="_blank">Copyright</a> © 2019 State of Florida, Florida Department of State.</small></p>
+            </div>
+
+            
+
+            <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1">
+
+            </div>
+
+            <div class="contact-block col-md-5 col-sm-5 col-xs-5 col-lg-5 footerColRight">
+
+                
+                <img style="margin-top:-1.5em" src="State%20of%20Florida%20Voter%20Lookup%20Search_files/Election_Seal.png">
+                <p class="department">
+                    Florida Department of State<br>
+                </p>
+                <p class="address">     
+                    R.A. Gray Building <br>500 South Bronough Street<br>
+                    Tallahassee, Florida 32399-0250
+                </p>
+                <p class="address">
+                   
+                    <b>Voter Assistance Hotline:  </b>  1.866.308.6739 <br>
+                    <b>Hours: </b>  Monday - Friday 8:00 AM - 5:00 PM (Eastern Time)<br>
+
+                    If hearing or speech impaired, please contact the Division using the<a target="_blank" href="https://www.ftri.org/relay"><b> Florida Relay Service </b></a>, 1.800.955.8771 (TTY) or <br>1.800.955.8770 (Voice) or 1-800-955-1339 (ASCII), or<br> 1.877.955.8773 (español a español ).   
+                    
+                </p>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="State%20of%20Florida%20Voter%20Lookup%20Search_files/bootstrap.es"></script>
+
+
+
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
